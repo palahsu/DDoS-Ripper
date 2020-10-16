@@ -18,7 +18,7 @@ From a higher level, the DDOS attack is like an unexpected traffic jam stuck on 
 
 `$ example: python3 DDOS Ripper.py -s 123.45.67.89 -t 135`
 
-
+![dddd](https://user-images.githubusercontent.com/49250151/96265488-57e53d00-0f7a-11eb-8936-ce2e9a2c42cd.PNG)
 
 # Note:
 If you find any problems than please write on issue github and to our Telegram Group. Don't use for revenge! Make sure your anonymity!
