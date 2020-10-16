@@ -12,11 +12,11 @@ From a higher level, the DDOS attack is like an unexpected traffic jam stuck on 
 
 `$ ls`
 
-`$ python3 DDOS Ripper.py`
+`$ python3 DRipper.py`
 
-`$ python3 DDOS Ripper.py -s [ip Address] -t 135`
+`$ python3 DRipper.py -s [ip Address] -t 135`
 
-`$ example: python3 DDOS Ripper.py -s 123.45.67.89 -t 135`
+`$ example: python3 DRipper.py -s 0.00.00.00 -t 135`
 
 ![dddd](https://user-images.githubusercontent.com/49250151/96265488-57e53d00-0f7a-11eb-8936-ce2e9a2c42cd.PNG)
 
