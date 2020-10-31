@@ -27,6 +27,7 @@ We are not responsible for any abuse or damage caused by this program. Only for 
 Thanks.
 
 ## Buy DDoS-Ripper Pro ▶ Only 2$
+ [![paypal](https://telegra.ph/file/5548026a816dda3b6d143.jpg)](https://paypal.me/AbirHasan2005)
 
 # Modified by @Engine Ripper
 
