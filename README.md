@@ -26,7 +26,7 @@ It's made for just testing purpose.
 We are not responsible for any abuse or damage caused by this program. Only for Educational Purpose.
 Thanks.
 
-## Buy DDoS-Ripper Pro ▶ Only 2$
+## Buy DDoS-Ripper Pro ▶ Only 3$
  [![paypal](https://telegra.ph/file/ce706da103eeb40608c7d.jpg)](https://paypal.me/AbirHasan2005)
 
 # Modified by @Engine Ripper @palahsu
