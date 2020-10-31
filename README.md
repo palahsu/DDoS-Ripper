@@ -23,7 +23,10 @@ From a higher level, the DDOS attack is like an unexpected traffic jam stuck on 
 # Note:
 If you find any problems than please write on issue github and to our Telegram Group. Don't use for revenge! Make sure your anonymity!
 It's made for just testing purpose.
-We are not responsible for any abuse or damage caused by this program. Only for Educational Purpose. Thanks.
+We are not responsible for any abuse or damage caused by this program. Only for Educational Purpose.
+Thanks.
+
+## Buy DDoS-Ripper Pro!!
 
 # Modified by @Engine Ripper
 
@@ -36,7 +39,7 @@ https://t.me/AD0000000
 </p><p align="left">
 <a href="https://twitter.com/palashgamer"><img src="https://img.shields.io/badge/Twitter-Follow%20on%20Twitter-informational.svg?logo=twitter"></a>
 </p><p align="left">
-<a href="https://facebook.com/Aduri.knox"><img src="https://img.shields.io/badge/Facebook-Follow%20on%20Facebook-blue.svg?logo=facebook"></a>
+<a href="https://www.facebook.com/aduri.knox01/"><img src="https://img.shields.io/badge/Facebook-Follow%20on%20Facebook-blue.svg?logo=facebook"></a>
 </p><p align="left">
 <a href="https://instagram.com/palashgamer"><img src="https://img.shields.io/badge/Instagram-Follow%20on%20Instagram-important.svg?logo=instagram"></a>
 </p>
