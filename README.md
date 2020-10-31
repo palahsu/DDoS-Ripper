@@ -27,12 +27,15 @@ We are not responsible for any abuse or damage caused by this program. Only for 
 Thanks.
 
 ## Buy DDoS-Ripper Pro ▶ Only 2$
- [![paypal](https://telegra.ph/file/5548026a816dda3b6d143.jpg)](https://paypal.me/AbirHasan2005)
+ [![paypal](https://telegra.ph/file/f06863d0e59ceabf1f3b8.jpg)](https://paypal.me/AbirHasan2005)
 
-# Modified by @Engine Ripper
+# Modified by @Engine Ripper @palahsu
 
-For any kind of help, support, suggetion and request ask in my Telegram Group:
+For any kind of help, support, payment, suggetion and request ask me on Telegram:
 https://t.me/AD0000000
+
+Or Join: https://t.me/linux_repo
+Or Facebook https://www.facebook.com/aduri.knox01/
 
 ## Follow on:
 <p align="left">
