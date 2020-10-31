@@ -26,7 +26,7 @@ It's made for just testing purpose.
 We are not responsible for any abuse or damage caused by this program. Only for Educational Purpose.
 Thanks.
 
-## Buy DDoS-Ripper Pro!!
+## Buy DDoS-Ripper Pro ▶ Only 2$
 
 # Modified by @Engine Ripper
 
