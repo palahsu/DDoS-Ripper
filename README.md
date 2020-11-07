@@ -12,7 +12,7 @@ From a higher level, the DDOS attack is like an unexpected traffic jam stuck on 
 
 `$ ls`
 
-`$ python3 DRipper.py`
+`$ python3 DRipper.py` OR `python2 DRipper.py`
 
 `$ python3 DRipper.py -s [ip Address] -t 135`
 
@@ -28,6 +28,16 @@ Thanks.
 
 ## Buy DDoS-Ripper Pro ▶ Only 5$
  [![paypal](https://telegra.ph/file/ce706da103eeb40608c7d.jpg)](https://paypal.me/AbirHasan2005)
+ 
+## Requirments ▶
+
+●🖥Linux OS( Kali 🐉 Ubuntu )
+
+●📱Termux >
+
+●🖥Windows
+
+●🖥MAC
 
 # Modified by @Engine Ripper @palahsu
 
