@@ -12,7 +12,7 @@ From a higher level, the DDOS attack is like an unexpected traffic jam stuck on 
 
 `$ ls`
 
-`$ python3 DRipper.py` OR `python2 DRipper.py`
+`$ python3 DRipper.py` OR `python DRipper.py`
 
 `$ python3 DRipper.py -s [ip Address] -t 135`
 
