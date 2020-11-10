@@ -17,16 +17,19 @@ To use the DRipper type the following commands in Termux:
 
 `pkg install python -y`
 
-`pkg install python2 -y` (if python2 not working)
-
-`pkg install python3 -y` (command python3)
+`pkg install python3 -y`
 
 `git clone https://github.com/palahsu/DDoS-Ripper.git`
 
 `cd DDoS-Ripper`
 `$ ls`
 
-`$ python3 DRipper.py` OR `python2 DRipper.py`
+`$ python3 DRipper.py` OR `python DRipper.py`
+
+## USGAE
+`python3 DRipper.py -s [ip Address] -t 135`
+
+`example: python3 DRipper.py -s 0.00.00.00 -t 135`
 
 ## For Debian-based GNU/Linux distributions
 To use the application, type in the following commands in GNU/Linux terminal.
@@ -37,13 +40,11 @@ To use the application, type in the following commands in GNU/Linux terminal.
 `$ ls`
 `$ python3 DRipper.py` OR `python2 DRipper.py`
 
-
 ## For Windows
 
 `git clone https://github.com/palahsu/DDoS-Ripper`
 
 `cd DDoS-Ripper`
-
 ` ls`
 
 `python3 DRipper.py` OR `python DRipper.py`
