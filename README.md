@@ -63,7 +63,8 @@ It's made for just testing purpose.
 We are not responsible for any abuse or damage caused by this program. Only for Educational Purpose.
 Thanks.
 
-## Buy DDoS-Ripper Pro ▶ Only 5$
+## Buy DDoS-Ripper Pro
+## ▶ Only 5$ For Buy Click Buy Button
  [![paypal](https://telegra.ph/file/ce706da103eeb40608c7d.jpg)](https://paypal.me/AbirHasan2005)
  
 ## Requirments ▶
@@ -76,20 +77,20 @@ Thanks.
 
 ●🖥MAC
 
-# Modified by @Engine Ripper @palahsu
+# Modified by @palahsu
 
 For any kind of help, support, payment, suggetion and request ask me on Telegram:
-https://t.me/AD0000000
 
-Or Join: https://t.me/linux_repo
-Or Facebook https://www.facebook.com/aduri.knox01/
+<a href="https://t.me/linux_repo"><img src="https://img.shields.io/badge/Telegram-Group%20Telegram%20Join-blue.svg?logo=telegram"></a>
+
+Or Facebook <a href="https://www.facebook.com/aduri.knox01/"><img src="https://img.shields.io/badge/Facebook-Follow%20on%20Facebook-blue.svg?logo=facebook"></a>
 
 ## Follow on:
 <p align="left">
 <a href="https://github.com/palahsu"><img src="https://img.shields.io/badge/GitHub-Follow%20on%20GitHub-inactive.svg?logo=github"></a>
 </p><p align="left">
-<a href="https://twitter.com/palahsu"><img src="https://img.shields.io/badge/Twitter-Follow%20on%20Twitter-informational.svg?logo=twitter"></a>
-</p><p align="left">
 <a href="https://www.facebook.com/aduri.knox01/"><img src="https://img.shields.io/badge/Facebook-Follow%20on%20Facebook-blue.svg?logo=facebook"></a>
 </p><p align="left">
+<a href="https://t.me/AD0000000"><img src="https://img.shields.io/badge/Telegram-Contact%20Telegram%20Profile-blue.svg?logo=telegram"></a>
+</p><p align="left"> 
  
