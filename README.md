@@ -62,10 +62,6 @@ If you find any problems than please write on issue github and to our Telegram G
 It's made for just testing purpose.
 We are not responsible for any abuse or damage caused by this program. Only for Educational Purpose.
 Thanks.
-
-## Buy DDoS-Ripper Pro
-## ▶ Only 5$ For Buy Click Buy Button
- [![paypal](https://telegra.ph/file/ce706da103eeb40608c7d.jpg)](https://paypal.me/AbirHasan2005)
  
 ## Requirments ▶
 
@@ -81,7 +77,7 @@ Thanks.
 
 For any kind of help, support, payment, suggetion and request ask me on Telegram:
 
-<a href="https://t.me/linux_repo"><img src="https://img.shields.io/badge/Telegram-Group%20Telegram%20Join-blue.svg?logo=telegram"></a>
+<a href="https://t.me/CyberClans"><img src="https://img.shields.io/badge/Telegram-Group%20Telegram%20Join-blue.svg?logo=telegram"></a>
 
 Or Facebook <a href="https://www.facebook.com/aduri.knox01/"><img src="https://img.shields.io/badge/Facebook-Follow%20on%20Facebook-blue.svg?logo=facebook"></a>
 
