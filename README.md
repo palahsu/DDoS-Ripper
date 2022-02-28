@@ -26,7 +26,7 @@ To use the DRipper type the following commands in Termux:
 
 `$ python3 DRipper.py` 
 
-## USGAE
+## USAGE
 `python3 DRipper.py -s [ip Address] -t 135`
 
 `example: python3 DRipper.py -s 0.00.00.00 -t 135`
@@ -63,7 +63,7 @@ It's made for just testing purpose.
 We are not responsible for any abuse or damage caused by this program. Only for Educational Purpose.
 Thanks.
  
-## Requirments ▶
+## Requirements ▶
 
 ●🖥Linux OS( Kali 🐉 Ubuntu )
 
