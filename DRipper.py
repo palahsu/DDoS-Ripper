@@ -40,8 +40,9 @@ def user_agent():
 def my_bots():
 	global bots
 	bots=[]
-	bots.append("http://validator.w3.org/check?uri=")
-	bots.append("http://www.facebook.com/sharer/sharer.php?u=")
+	bots.append("https://validator.w3.org/nu/?doc=http://")
+	bots.append("https://validator.w3.org/checklink?uri=http://")
+	bots.append("https://html5.validator.nu/?doc=http://")
 	return(bots)
 
 
