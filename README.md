@@ -4,9 +4,9 @@
 
 To use the DRipper - install python and download DRipper.py and headers.txt
 
-`git clone https://github.com/Umbriferous/DDoS-Ripper
+`git clone https://github.com/Umbriferous/DDoS-Ripper`
 
-cd DDoS-Ripper`
+`cd DDoS-Ripper`
 
 Run with the following command:
 
