@@ -88,11 +88,11 @@ def dos2():
 def usage():
 	print (''' \033[0;95mDDos Ripper 
 	Usage : python3 dripper.py [-s] [-p] [-t] [-q]
-	-h : -help
-	-s : -server ip
-	-p : -port default 80
-	-q : -quiet mode (only log errors)
-	-t : -threads default 135 (best within 100-400)\033[0m ''')
+	-h : --help
+	-s : --server ip
+	-p : --port default 80
+	-q : --quiet mode (only log errors)
+	-t : --threads default 135 (best within 100-400)\033[0m ''')
 	sys.exit()
 
 
