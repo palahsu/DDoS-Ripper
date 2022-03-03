@@ -149,7 +149,7 @@ if __name__ == '__main__':
 	except socket.error as e:
 		logging.error("\033[91mCheck server ip and port\033[0m")
 		usage()
-
+	print("\033[92mConnected successfully. Sending packets.. \033[0m")
 	for i in range(int(thr)):
 		t = threading.Thread(target=dos)
 		t.daemon = True
