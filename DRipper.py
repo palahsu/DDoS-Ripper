@@ -65,7 +65,7 @@ def down_it():
 			s.connect((host,int(port)))
 			if s.sendto( packet, (host, int(port)) ):
 				s.shutdown(1)
-				logging.info("\033[92m",time.ctime(time.time()),"\033[0m \033[92m <--packet sent! rippering--> \033[0m")
+				logging.info("\033[92m" + time.ctime(time.time()) + "\033[0m \033[92m <--packet sent! rippering--> \033[0m")
 			else:
 				s.shutdown(1)
 				logging.error("\033[91mshut<->down\033[0m")
