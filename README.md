@@ -45,7 +45,7 @@ To use the application, type in the following commands in GNU/Linux terminal.
 `git clone https://github.com/palahsu/DDoS-Ripper`
 
 `cd DDoS-Ripper`
-` ls`
+` dir`
 
 `python3 DRipper.py` OR `python DRipper.py`
 
