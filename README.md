@@ -1,17 +1,18 @@
 # DDoS-Ripper
 
 # What is a DDoS Attack?
-A Distributable Denied-of-Service (DDOS) attack server that cuts off targets or surrounding infrastructure in a flood of Internet traffic
+DDos Ripper, bir İnternet trafiği selinde hedefleri veya çevresindeki Distributable Denied-of-Service (DDOS) sunucu saldırısı.
 
-DDoS attacks achieve effectiveness using multiple compromised computer systems as a source of attack traffic. Search engines may include computers and other network resources such as IoT devices.
-From a higher level, the DDOS attack is like an unexpected traffic jam stuck on a highway, preventing regular traffic from reaching its destination.
+DDoS saldırıları, saldırı trafiği kaynağı olarak birden çok güvenliği ihlal edilmiş bilgisayar sistemini kullanarak etkinlik sağlar. Arama motorları, bilgisayarları ve IoT cihazları gibi diğer ağ kaynaklarını içerebilir.
+Daha yüksek bir seviyeden, DDOS saldırısı, bir otoyolda takılıp, normal trafiğin hedefine ulaşmasını engelleyen beklenmedik bir trafik sıkışıklığı gibidir.
 
-## NOTE (Please, make sure you have installed python 3 )
+## NOT (Lütfen python 3'ü yüklediğinizden emin olun)
 
 ![dddd](https://user-images.githubusercontent.com/49250151/96265488-57e53d00-0f7a-11eb-8936-ce2e9a2c42cd.PNG)
 
-## For Termux
-To use the DRipper type the following commands in Termux:
+
+## Termux için
+DRipper'ı kullanmak için Termux'ta aşağıdaki komutları yazın:
 
 `pkg install git -y`
 
@@ -31,8 +32,8 @@ To use the DRipper type the following commands in Termux:
 
 `example: python3 DRipper.py -s 0.00.00.00 -t 135`
 
-## For Debian-based GNU/Linux distributions
-To use the application, type in the following commands in GNU/Linux terminal.
+## Debian tabanlı GNU/Linux için
+Uygulamayı kullanmak için GNU/Linux terminaline aşağıdaki komutları yazın.
 
 `sudo apt install git`
 `git clone https://github.com/palahsu/DDoS-Ripper.git`
@@ -40,7 +41,7 @@ To use the application, type in the following commands in GNU/Linux terminal.
 `$ ls`
 `$ python3 DRipper.py` OR `python2 DRipper.py`
 
-## For Windows
+## Windows için
 
 `git clone https://github.com/palahsu/DDoS-Ripper`
 
@@ -53,35 +54,35 @@ To use the application, type in the following commands in GNU/Linux terminal.
 
 `example: python3 DRipper.py -s 0.00.00.00 -t 135`
 
-## For MacOS
+## MacOS için
 
-Install Brew and Install dependencies (python 3)
+Brew ve Install bağımlılıklarını kurun (python 3)
 
-# Note:
-If you find any problems than please write on issue github and to our Telegram Group. Don't use for revenge! Make sure your anonymity!
-It's made for just testing purpose.
-We are not responsible for any abuse or damage caused by this program. Only for Educational Purpose.
-Thanks.
+# Not:
+Herhangi bir sorun bulursanız, lütfen github sorununa ve Telegram Grubumuza yazın. İntikam için kullanmayın! Anonimliğinizden emin olun!
+Sadece deneme amaçlı yapılmıştır.
+Bu programın neden olduğu herhangi bir kötüye kullanım veya hasardan sorumlu değiliz. Sadece Eğitim Amaçlı.
+Teşekkürler.
  
-## Requirments ▶
+## Gereksinimler ▶
 
-●🖥Linux OS( Kali 🐉 Ubuntu )
+●🖥Linux İşletim Sistemi( Kali 🐉 Ubuntu )
 
 ●📱Termux >
 
-●🖥Windows
+●🖥Pencereler
 
 ●🖥MAC
 
-# Modified by @palahsu
+# @palahsu tarafından değiştirildi
 
-For any kind of help, support, payment, suggetion and request ask me on Telegram:
+Her türlü yardım, destek, ödeme, öneri ve istek için bana Telegram'dan sorun:
 
 <a href="https://t.me/CyberClans"><img src="https://img.shields.io/badge/Telegram-Group%20Telegram%20Join-blue.svg?logo=telegram"></a>
 
-Or Facebook <a href="https://www.facebook.com/aduri.knox01/"><img src="https://img.shields.io/badge/Facebook-Follow%20on%20Facebook-blue.svg?logo=facebook"></a>
+veya Facebook üzerinden ulaş <a href="https://www.facebook.com/aduri.knox01/"><img src="https://img.shields.io/badge/Facebook-Follow%20on%20Facebook-blue.svg?logo=facebook"></a>
 
-## Follow on:
+## Bizi takip et:
 <p align="left">
 <a href="https://github.com/palahsu"><img src="https://img.shields.io/badge/GitHub-Follow%20on%20GitHub-inactive.svg?logo=github"></a>
 </p><p align="left">
