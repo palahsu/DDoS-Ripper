@@ -10,7 +10,7 @@ From a higher level, the DDOS attack is like an unexpected traffic jam stuck on 
 
 ![dddd](https://user-images.githubusercontent.com/49250151/96265488-57e53d00-0f7a-11eb-8936-ce2e9a2c42cd.PNG)
 
-![AD]((https://raw.githubusercontent.com/palahsu/DDos-Ripper/blob/main/epic.gif.mp4)
+https://github.com/user-attachments/assets/50260517-eb5f-48a9-a3cd-181131d5a34c
 
 ## For Termux
 To use the DRipper type the following commands in Termux:
